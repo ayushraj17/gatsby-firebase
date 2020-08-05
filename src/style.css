@@ -1,0 +1,28 @@
+form {
+  display: flex;
+  /* justify-content: center; */
+  /* align-content: center; */
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+label {
+}
+input,
+button {
+  min-width: 300px;
+  padding: 1%;
+  margin: 1%;
+}
+button {
+  color: black;
+  background-color: #f6f6f6;
+  border: solid 1px black;
+  transition: ease-in-out 0.3s;
+}
+button:hover {
+  color: #f6f6f6;
+  background-color: black;
+  cursor: pointer;
+}
