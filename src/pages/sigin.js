@@ -24,8 +24,8 @@ function Sigin() {
 
   return (
     <Layout>
-      <h2>Reset Your Password</h2>
       <form autoComplete="off" onSubmit={e => handleSubmit(e)}>
+        <h2>Reset Your Password</h2>
         <label htmlFor="email2"> Enter Your Email</label>
         <input
           required
